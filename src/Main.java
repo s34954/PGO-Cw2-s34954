@@ -12,5 +12,10 @@ public class Main {
         b.dodajKsiazke(k2);
 
         b.wypiszDostepneKsiazki();
+        b.wypozyczKsiazke("Wiedzmin", c1);
+
+        b.wypiszDostepneKsiazki();
+
+        b.zwrocKsiazke("Wiedzmin", c1);
     }
 }
